@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <form action="#" id="form">
+      <h3 bind-value="Hi, ${firstName} ${lastName}"></h3>
+      <input type="text" bind-model="firstName" placeholder="First name" />
+      <input type="text" bind-model="lastName" placeholder="Last name" />
+      <p bind-computed="isFormValid"></p>
+    </form>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

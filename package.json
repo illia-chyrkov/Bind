@@ -1,0 +1,16 @@
+{
+  "name": "bind",
+  "version": "0.0.1",
+  "description": "Data binding library",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.11.4",
+    "parcel-bundler": "^1.12.4"
+  },
+  "keywords": []
+}
